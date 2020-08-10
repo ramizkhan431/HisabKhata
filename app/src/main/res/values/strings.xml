@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HisabKhata</string>
+
+    <string-array name="name">
+        <item>Ramiz</item>
+        <item>Sani</item>
+        <item>Kamal</item>
+        <item>Sanju</item>
+        <item>Chottu</item>
+        <item>Mojo</item>
+        <item>Jasim</item>
+        <item>Kabi</item>
+        <item>Mintu</item>
+        <item>Mojam</item>
+        <item>vuchung</item>
+        <item>Morsed</item>
+        <item>Saidul</item>
+        <item>Sakir</item>
+        <item>Susanta</item>
+        <item>Tingku</item>
+        <item>Bapi</item>
+        <item>Wasim</item>
+        <item>Hasibul</item>
+        <item>Sahil</item>
+        <item>Romjan</item>
+        <item>Mama</item>
+        <item>Imran</item>
+        <item>Nejam</item>
+        <item>Mahmudul</item>
+        <item>Mamu</item>
+        <item>Bot</item>
+        <item>Gotia</item>
+        <item>Tilu</item>
+        <item>Mota</item>
+
+    </string-array>
+</resources>

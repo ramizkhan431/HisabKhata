@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/gradiants1"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint=" Name"
+            android:inputType="text"
+            android:text=""
+            android:background="@drawable/edittext2"
+            android:layout_margin="5dp"
+            android:textColor="#E71616"
+            />
+
+        <ListView
+
+            android:id="@+id/textScore1"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_above="@+id/button1"
+            android:layout_below="@+id/editText"
+            android:hint="Score"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/edit_enter_score1"
+            android:dividerHeight="2dp"
+             />
+
+        <EditText
+            android:id="@+id/edit_enter_score1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="  0" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button1"
+            android:text="Submit"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/text_total1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:hint="Total"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/gradient2"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint=" Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext2"
+            android:layout_margin="5dp"
+            android:textColor="#181717"/>
+
+        <ListView
+
+            android:id="@+id/textScore2"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_marginLeft="5dp"
+            android:hint="Score"
+            android:textSize="12dp"
+            android:dividerHeight="2dp"/>
+
+        <EditText
+            android:id="@+id/edit_enter_score2"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint=" 0"/>
+
+        <Button
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button1"
+            android:textColor="@android:color/white"
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/text_total2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Total"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/gradient3"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint=" Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext2"
+            android:layout_margin="5dp"
+            android:textColor="#DF1515"/>
+
+        <ListView
+
+            android:id="@+id/textScore3"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_marginLeft="5dp"
+            android:hint="Score"
+            android:textSize="12dp"
+            android:dividerHeight="2dp"/>
+
+        <EditText
+            android:id="@+id/edit_enter_score3"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint=" 0" />
+
+        <Button
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button1"
+            android:textColor="@android:color/white"
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/text_total3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Total"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/gradient4"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint=" Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/edittext2"
+            android:layout_margin="5dp"
+            android:textColor="#1B1B1A"/>
+
+        <ListView
+
+            android:id="@+id/textScore4"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_marginLeft="5dp"
+            android:hint="Score"
+            android:textSize="12dp"
+            android:dividerHeight="2dp"/>
+
+        <EditText
+            android:id="@+id/edit_enter_score4"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint=" 0" />
+
+        <Button
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button1"
+            android:textColor="@android:color/white"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/text_total4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Total"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
